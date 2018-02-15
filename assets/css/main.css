@@ -1,0 +1,110 @@
+.oll {
+  background: url('/Users/ila/Documents/homework 1234/assets/img/1.png') 100% 100% no-repeat;
+  background-size: cover;
+  height: 1024px;
+  width: auto;
+}
+
+nav {
+  background: url('/Users/ila/Documents/homework 1234/assets/img/2.png') repeat-x;
+  height: 32px;
+  width: auto;
+}
+
+nav li {
+  float: right;
+  display: block;
+  height: 32px;
+  width: auto;
+  line-height: 32px;
+  text-align: center;
+  margin-right: 19px;
+}
+
+.menu-1 {
+  color:rgba(0, 201, 255, 0.67);
+}
+
+.menu-1:hover {
+  background:rgba(3, 225, 255, 0.48);
+  color: white;
+}
+.menu-3 {
+  color:rgba(0, 201, 255, 0.67);
+  border-right: 1px solid rgba(0, 201, 255, 0.67);
+}
+
+.menu-3:hover {
+  background:rgba(3, 225, 255, 0.48);
+  color: white;
+}
+.menu-2 {
+  color: white;
+}
+
+.clearfix, .clearfix:before, .clearfix:after {
+  content: '';
+  display: block;
+  float: none;
+  clear: both;
+}
+.center>ul {
+  border-top: 1px solid #ccc;
+}
+.center {
+  margin-top: 243px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 556px;
+  height: 615px;
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+.center>ul>li {
+  text-align: center;
+  color: white;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.center>ul>li>input {
+  padding-left: 15px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  outline: none;
+  height: 33px;
+  width: 274px;
+}
+
+h1 {
+  font-size: 29px;
+}
+
+.text-1 {
+  font-size: 15px;
+}
+
+.text-2 {
+  font-size: 12px;
+}
+.line {
+  border-top: 1px solid #ccc;
+}
+button {
+  height: 33px;
+  width: 150px;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,5394ef+54,05abe0+100 */
+background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #87e0fd 0%, #5394ef 54%, #05abe0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #87e0fd 0%,#5394ef 54%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #87e0fd 0%,#5394ef 54%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+
+}
